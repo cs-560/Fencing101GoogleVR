@@ -9,48 +9,38 @@ public class OpenMenu : MonoBehaviour {
 	public GameObject help;
 	public enum State {Watch, Main, MainHelp, Pause, PauseHelp};
 	private State state;
+	private bool click;
+	private float t0;
+	public float hold_interval;
 	// Use this for initialization
 	void Start () {
 		state = State.Main;
+		t0 = 0.0f;
 	}
-	
 	// Update is called once per frame
 	void Update(){
-		if (!menus.activeInHierarchy)
-			state = State.Watch;
-		if (help.activeInHierarchy){
-			if (state == State.Main)
-				state = State.MainHelp;
-			else if(state == State.Pause)
-				state = State.PauseHelp;
+		if (Input.GetMouseButtonDown (0)) {
+			t0 = Time.time;
+		}
+		if(Input.GetMouseButtonUp (0)){
+			if (!menus.activeInHierarchy && Time.time - t0 < hold_interval)
+				click = true;
+			else
+				print ("This was a hold and not a click");
 		}
 	}
 	void LateUpdate() {
-		if (Input.GetMouseButtonUp (1)) {
-			if (menus.activeInHierarchy){
-				if (help.activeInHierarchy) {
-					if (state == State.MainHelp) {
-						main.SetActive (true);
-						state = State.Main;
-					} else {
-						pause.SetActive (true);
-						state = State.Pause;
-					}
-					help.SetActive (false);
-				} else {
-					menus.SetActive (false);
-					state = State.Watch;
-				}
-			}
-			else {
-				menus.SetActive (true);
-				if (state == State.Watch) {
-					pause.SetActive (true);
-					main.SetActive (false);
-					help.SetActive (false);
-					state = State.Pause;
-				}
-			}
+		if (menus.activeInHierarchy)
+			return;
+		if (click) {
+			menus.SetActive (true);
+			//if (state == State.Watch) {
+				pause.SetActive (true);
+				main.SetActive (false);
+				help.SetActive (false);
+				state = State.Pause;
+			//}
+			click = false;
 		}
 	}
 	public void SetState(string to_set){

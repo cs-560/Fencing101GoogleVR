@@ -1,0 +1,2560 @@
+fileFormatVersion: 2
+guid: d5be711ac55641d43aa844118f34a2fc
+timeCreated: 1489397266
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm IK L
+    100002: Arm IK R
+    100004: Armature
+    100006: Bend IK
+    100008: Chest
+    100010: Control
+    100012: ElbowL
+    100014: ElbowR
+    100016: //RootNode
+    100018: Foilable
+    100020: FoilMesh
+    100022: FootL
+    100024: FootR
+    100026: Forte
+    100028: HandL
+    100030: Head
+    100032: HeelL
+    100034: HeelR
+    100036: Index01
+    100038: Index02
+    100040: Index03
+    100042: IndexR0
+    100044: KneeL
+    100046: KneeR
+    100048: Leg IK L
+    100050: Leg IK R
+    100052: LowerArmL
+    100054: LowerArmR
+    100056: LowerArmR.001
+    100058: LowerChest
+    100060: MHuman
+    100062: MiddleR0
+    100064: MiddleR1
+    100066: MiddleR2
+    100068: MiddleR3
+    100070: Neck
+    100072: PinkyR0
+    100074: PinkyR1
+    100076: PinkyR2
+    100078: PinkyR3
+    100080: RingR0
+    100082: RingR1
+    100084: RingR2
+    100086: RingR3
+    100088: ShinL
+    100090: ShinL.003
+    100092: ShinR
+    100094: ShinR.001
+    100096: Stomach
+    100098: ThighL
+    100100: ThighR
+    100102: ThumbR1
+    100104: ThumbR2
+    100106: ThumbR3
+    100108: Tip
+    100110: Tip IK
+    100112: UpperArmL
+    100114: UpperArmR
+    400000: Arm IK L
+    400002: Arm IK R
+    400004: Armature
+    400006: Bend IK
+    400008: Chest
+    400010: Control
+    400012: ElbowL
+    400014: ElbowR
+    400016: //RootNode
+    400018: Foilable
+    400020: FoilMesh
+    400022: FootL
+    400024: FootR
+    400026: Forte
+    400028: HandL
+    400030: Head
+    400032: HeelL
+    400034: HeelR
+    400036: Index01
+    400038: Index02
+    400040: Index03
+    400042: IndexR0
+    400044: KneeL
+    400046: KneeR
+    400048: Leg IK L
+    400050: Leg IK R
+    400052: LowerArmL
+    400054: LowerArmR
+    400056: LowerArmR.001
+    400058: LowerChest
+    400060: MHuman
+    400062: MiddleR0
+    400064: MiddleR1
+    400066: MiddleR2
+    400068: MiddleR3
+    400070: Neck
+    400072: PinkyR0
+    400074: PinkyR1
+    400076: PinkyR2
+    400078: PinkyR3
+    400080: RingR0
+    400082: RingR1
+    400084: RingR2
+    400086: RingR3
+    400088: ShinL
+    400090: ShinL.003
+    400092: ShinR
+    400094: ShinR.001
+    400096: Stomach
+    400098: ThighL
+    400100: ThighR
+    400102: ThumbR1
+    400104: ThumbR2
+    400106: ThumbR3
+    400108: Tip
+    400110: Tip IK
+    400112: UpperArmL
+    400114: UpperArmR
+    4300000: MHuman
+    4300002: FoilMesh
+    7400000: Armature|Advance
+    7400002: Armature|Advance.001
+    7400004: Armature|AdvancedLunge
+    7400006: Armature|ALExtend
+    7400008: Armature|DoubleAdvance
+    7400010: Armature|DoubleRetreat
+    7400012: Armature|Guards
+    7400014: Armature|IdleMove
+    7400016: Armature|LExtend
+    7400018: Armature|Lunge
+    7400020: Armature|Parry4Reposte
+    7400022: Armature|Parry6Reposte
+    7400024: Armature|ParryFrom6
+    7400026: Armature|Retreat
+    7400028: Armature|RetreatLunge
+    7400030: Armature|SaluteViewer
+    9500000: //RootNode
+    13700000: FoilMesh
+    13700002: MHuman
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Advance
+      takeName: Armature|Advance
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: move
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0.6
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Arm IK L
+        weight: 1
+      - path: Armature/Control/Bend IK
+        weight: 1
+      - path: Armature/Control/ElbowL
+        weight: 1
+      - path: Armature/Control/ElbowR
+        weight: 1
+      - path: Armature/Control/Forte
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02/Index03
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2/MiddleR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2/PinkyR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2/RingR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2/ThumbR3
+        weight: 1
+      - path: Armature/Control/Forte/Foilable
+        weight: 1
+      - path: Armature/Control/Forte/Foilable/Tip
+        weight: 1
+      - path: Armature/Control/KneeL
+        weight: 1
+      - path: Armature/Control/KneeR
+        weight: 1
+      - path: Armature/Control/Leg IK L
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL/FootL
+        weight: 1
+      - path: Armature/Control/Leg IK R
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR/FootR
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL/HandL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR/LowerArmR.001
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL/ShinL.003
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR/ShinR.001
+        weight: 1
+      - path: Armature/Control/Tip IK
+        weight: 1
+      - path: FoilMesh
+        weight: 1
+      - path: MHuman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Advance.001
+      takeName: Armature|Advance.001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Arm IK L
+        weight: 1
+      - path: Armature/Control/Bend IK
+        weight: 1
+      - path: Armature/Control/ElbowL
+        weight: 1
+      - path: Armature/Control/ElbowR
+        weight: 1
+      - path: Armature/Control/Forte
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02/Index03
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2/MiddleR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2/PinkyR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2/RingR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2/ThumbR3
+        weight: 1
+      - path: Armature/Control/Forte/Foilable
+        weight: 1
+      - path: Armature/Control/Forte/Foilable/Tip
+        weight: 1
+      - path: Armature/Control/KneeL
+        weight: 1
+      - path: Armature/Control/KneeR
+        weight: 1
+      - path: Armature/Control/Leg IK L
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL/FootL
+        weight: 1
+      - path: Armature/Control/Leg IK R
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR/FootR
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL/HandL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR/LowerArmR.001
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL/ShinL.003
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR/ShinR.001
+        weight: 1
+      - path: Armature/Control/Tip IK
+        weight: 1
+      - path: FoilMesh
+        weight: 1
+      - path: MHuman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|AdvancedLunge
+      takeName: Armature|AdvancedLunge
+      firstFrame: 0
+      lastFrame: 62
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: move
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0.5
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Arm IK L
+        weight: 1
+      - path: Armature/Control/Bend IK
+        weight: 1
+      - path: Armature/Control/ElbowL
+        weight: 1
+      - path: Armature/Control/ElbowR
+        weight: 1
+      - path: Armature/Control/Forte
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02/Index03
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2/MiddleR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2/PinkyR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2/RingR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2/ThumbR3
+        weight: 1
+      - path: Armature/Control/Forte/Foilable
+        weight: 1
+      - path: Armature/Control/Forte/Foilable/Tip
+        weight: 1
+      - path: Armature/Control/KneeL
+        weight: 1
+      - path: Armature/Control/KneeR
+        weight: 1
+      - path: Armature/Control/Leg IK L
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL/FootL
+        weight: 1
+      - path: Armature/Control/Leg IK R
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR/FootR
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL/HandL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR/LowerArmR.001
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL/ShinL.003
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR/ShinR.001
+        weight: 1
+      - path: Armature/Control/Tip IK
+        weight: 1
+      - path: FoilMesh
+        weight: 1
+      - path: MHuman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ALExtend
+      takeName: Armature|ALExtend
+      firstFrame: 0
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Arm IK L
+        weight: 1
+      - path: Armature/Control/Bend IK
+        weight: 1
+      - path: Armature/Control/ElbowL
+        weight: 1
+      - path: Armature/Control/ElbowR
+        weight: 1
+      - path: Armature/Control/Forte
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02/Index03
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2/MiddleR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2/PinkyR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2/RingR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2/ThumbR3
+        weight: 1
+      - path: Armature/Control/Forte/Foilable
+        weight: 1
+      - path: Armature/Control/Forte/Foilable/Tip
+        weight: 1
+      - path: Armature/Control/KneeL
+        weight: 1
+      - path: Armature/Control/KneeR
+        weight: 1
+      - path: Armature/Control/Leg IK L
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL/FootL
+        weight: 1
+      - path: Armature/Control/Leg IK R
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR/FootR
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL/HandL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR/LowerArmR.001
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL/ShinL.003
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR/ShinR.001
+        weight: 1
+      - path: Armature/Control/Tip IK
+        weight: 1
+      - path: FoilMesh
+        weight: 1
+      - path: MHuman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|DoubleAdvance
+      takeName: Armature|DoubleAdvance
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: move
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1.1
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Arm IK L
+        weight: 1
+      - path: Armature/Control/Bend IK
+        weight: 1
+      - path: Armature/Control/ElbowL
+        weight: 1
+      - path: Armature/Control/ElbowR
+        weight: 1
+      - path: Armature/Control/Forte
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02/Index03
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2/MiddleR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2/PinkyR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2/RingR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2/ThumbR3
+        weight: 1
+      - path: Armature/Control/Forte/Foilable
+        weight: 1
+      - path: Armature/Control/Forte/Foilable/Tip
+        weight: 1
+      - path: Armature/Control/KneeL
+        weight: 1
+      - path: Armature/Control/KneeR
+        weight: 1
+      - path: Armature/Control/Leg IK L
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL/FootL
+        weight: 1
+      - path: Armature/Control/Leg IK R
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR/FootR
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL/HandL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR/LowerArmR.001
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL/ShinL.003
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR/ShinR.001
+        weight: 1
+      - path: Armature/Control/Tip IK
+        weight: 1
+      - path: FoilMesh
+        weight: 1
+      - path: MHuman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|DoubleRetreat
+      takeName: Armature|DoubleRetreat
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: move
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: -1.23
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Arm IK L
+        weight: 1
+      - path: Armature/Control/Bend IK
+        weight: 1
+      - path: Armature/Control/ElbowL
+        weight: 1
+      - path: Armature/Control/ElbowR
+        weight: 1
+      - path: Armature/Control/Forte
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02/Index03
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2/MiddleR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2/PinkyR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2/RingR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2/ThumbR3
+        weight: 1
+      - path: Armature/Control/Forte/Foilable
+        weight: 1
+      - path: Armature/Control/Forte/Foilable/Tip
+        weight: 1
+      - path: Armature/Control/KneeL
+        weight: 1
+      - path: Armature/Control/KneeR
+        weight: 1
+      - path: Armature/Control/Leg IK L
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL/FootL
+        weight: 1
+      - path: Armature/Control/Leg IK R
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR/FootR
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL/HandL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR/LowerArmR.001
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL/ShinL.003
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR/ShinR.001
+        weight: 1
+      - path: Armature/Control/Tip IK
+        weight: 1
+      - path: FoilMesh
+        weight: 1
+      - path: MHuman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Guards
+      takeName: Armature|Guards
+      firstFrame: 0
+      lastFrame: 57
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Arm IK L
+        weight: 1
+      - path: Armature/Control/Bend IK
+        weight: 1
+      - path: Armature/Control/ElbowL
+        weight: 1
+      - path: Armature/Control/ElbowR
+        weight: 1
+      - path: Armature/Control/Forte
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02/Index03
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2/MiddleR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2/PinkyR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2/RingR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2/ThumbR3
+        weight: 1
+      - path: Armature/Control/Forte/Foilable
+        weight: 1
+      - path: Armature/Control/Forte/Foilable/Tip
+        weight: 1
+      - path: Armature/Control/KneeL
+        weight: 1
+      - path: Armature/Control/KneeR
+        weight: 1
+      - path: Armature/Control/Leg IK L
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL/FootL
+        weight: 1
+      - path: Armature/Control/Leg IK R
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR/FootR
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL/HandL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR/LowerArmR.001
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL/ShinL.003
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR/ShinR.001
+        weight: 1
+      - path: Armature/Control/Tip IK
+        weight: 1
+      - path: FoilMesh
+        weight: 1
+      - path: MHuman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|IdleMove
+      takeName: Armature|IdleMove
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Arm IK L
+        weight: 1
+      - path: Armature/Control/Bend IK
+        weight: 1
+      - path: Armature/Control/ElbowL
+        weight: 1
+      - path: Armature/Control/ElbowR
+        weight: 1
+      - path: Armature/Control/Forte
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02/Index03
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2/MiddleR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2/PinkyR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2/RingR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2/ThumbR3
+        weight: 1
+      - path: Armature/Control/Forte/Foilable
+        weight: 1
+      - path: Armature/Control/Forte/Foilable/Tip
+        weight: 1
+      - path: Armature/Control/KneeL
+        weight: 1
+      - path: Armature/Control/KneeR
+        weight: 1
+      - path: Armature/Control/Leg IK L
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL/FootL
+        weight: 1
+      - path: Armature/Control/Leg IK R
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR/FootR
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL/HandL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR/LowerArmR.001
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL/ShinL.003
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR/ShinR.001
+        weight: 1
+      - path: Armature/Control/Tip IK
+        weight: 1
+      - path: FoilMesh
+        weight: 1
+      - path: MHuman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|LExtend
+      takeName: Armature|LExtend
+      firstFrame: 0
+      lastFrame: 53
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Arm IK L
+        weight: 1
+      - path: Armature/Control/Bend IK
+        weight: 1
+      - path: Armature/Control/ElbowL
+        weight: 1
+      - path: Armature/Control/ElbowR
+        weight: 1
+      - path: Armature/Control/Forte
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02/Index03
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2/MiddleR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2/PinkyR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2/RingR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2/ThumbR3
+        weight: 1
+      - path: Armature/Control/Forte/Foilable
+        weight: 1
+      - path: Armature/Control/Forte/Foilable/Tip
+        weight: 1
+      - path: Armature/Control/KneeL
+        weight: 1
+      - path: Armature/Control/KneeR
+        weight: 1
+      - path: Armature/Control/Leg IK L
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL/FootL
+        weight: 1
+      - path: Armature/Control/Leg IK R
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR/FootR
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL/HandL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR/LowerArmR.001
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL/ShinL.003
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR/ShinR.001
+        weight: 1
+      - path: Armature/Control/Tip IK
+        weight: 1
+      - path: FoilMesh
+        weight: 1
+      - path: MHuman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Lunge
+      takeName: Armature|Lunge
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Arm IK L
+        weight: 1
+      - path: Armature/Control/Bend IK
+        weight: 1
+      - path: Armature/Control/ElbowL
+        weight: 1
+      - path: Armature/Control/ElbowR
+        weight: 1
+      - path: Armature/Control/Forte
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02/Index03
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2/MiddleR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2/PinkyR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2/RingR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2/ThumbR3
+        weight: 1
+      - path: Armature/Control/Forte/Foilable
+        weight: 1
+      - path: Armature/Control/Forte/Foilable/Tip
+        weight: 1
+      - path: Armature/Control/KneeL
+        weight: 1
+      - path: Armature/Control/KneeR
+        weight: 1
+      - path: Armature/Control/Leg IK L
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL/FootL
+        weight: 1
+      - path: Armature/Control/Leg IK R
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR/FootR
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL/HandL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR/LowerArmR.001
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL/ShinL.003
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR/ShinR.001
+        weight: 1
+      - path: Armature/Control/Tip IK
+        weight: 1
+      - path: FoilMesh
+        weight: 1
+      - path: MHuman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Parry4Reposte
+      takeName: Armature|Parry4Reposte
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Arm IK L
+        weight: 1
+      - path: Armature/Control/Bend IK
+        weight: 1
+      - path: Armature/Control/ElbowL
+        weight: 1
+      - path: Armature/Control/ElbowR
+        weight: 1
+      - path: Armature/Control/Forte
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02/Index03
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2/MiddleR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2/PinkyR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2/RingR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2/ThumbR3
+        weight: 1
+      - path: Armature/Control/Forte/Foilable
+        weight: 1
+      - path: Armature/Control/Forte/Foilable/Tip
+        weight: 1
+      - path: Armature/Control/KneeL
+        weight: 1
+      - path: Armature/Control/KneeR
+        weight: 1
+      - path: Armature/Control/Leg IK L
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL/FootL
+        weight: 1
+      - path: Armature/Control/Leg IK R
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR/FootR
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL/HandL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR/LowerArmR.001
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL/ShinL.003
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR/ShinR.001
+        weight: 1
+      - path: Armature/Control/Tip IK
+        weight: 1
+      - path: FoilMesh
+        weight: 1
+      - path: MHuman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Parry6Reposte
+      takeName: Armature|Parry6Reposte
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Arm IK L
+        weight: 1
+      - path: Armature/Control/Bend IK
+        weight: 1
+      - path: Armature/Control/ElbowL
+        weight: 1
+      - path: Armature/Control/ElbowR
+        weight: 1
+      - path: Armature/Control/Forte
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02/Index03
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2/MiddleR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2/PinkyR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2/RingR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2/ThumbR3
+        weight: 1
+      - path: Armature/Control/Forte/Foilable
+        weight: 1
+      - path: Armature/Control/Forte/Foilable/Tip
+        weight: 1
+      - path: Armature/Control/KneeL
+        weight: 1
+      - path: Armature/Control/KneeR
+        weight: 1
+      - path: Armature/Control/Leg IK L
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL/FootL
+        weight: 1
+      - path: Armature/Control/Leg IK R
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR/FootR
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL/HandL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR/LowerArmR.001
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL/ShinL.003
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR/ShinR.001
+        weight: 1
+      - path: Armature/Control/Tip IK
+        weight: 1
+      - path: FoilMesh
+        weight: 1
+      - path: MHuman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ParryFrom6
+      takeName: Armature|ParryFrom6
+      firstFrame: 0
+      lastFrame: 123
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Arm IK L
+        weight: 1
+      - path: Armature/Control/Bend IK
+        weight: 1
+      - path: Armature/Control/ElbowL
+        weight: 1
+      - path: Armature/Control/ElbowR
+        weight: 1
+      - path: Armature/Control/Forte
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02/Index03
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2/MiddleR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2/PinkyR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2/RingR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2/ThumbR3
+        weight: 1
+      - path: Armature/Control/Forte/Foilable
+        weight: 1
+      - path: Armature/Control/Forte/Foilable/Tip
+        weight: 1
+      - path: Armature/Control/KneeL
+        weight: 1
+      - path: Armature/Control/KneeR
+        weight: 1
+      - path: Armature/Control/Leg IK L
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL/FootL
+        weight: 1
+      - path: Armature/Control/Leg IK R
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR/FootR
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL/HandL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR/LowerArmR.001
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL/ShinL.003
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR/ShinR.001
+        weight: 1
+      - path: Armature/Control/Tip IK
+        weight: 1
+      - path: FoilMesh
+        weight: 1
+      - path: MHuman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Retreat
+      takeName: Armature|Retreat
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: move
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: -0.6
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Arm IK L
+        weight: 1
+      - path: Armature/Control/Bend IK
+        weight: 1
+      - path: Armature/Control/ElbowL
+        weight: 1
+      - path: Armature/Control/ElbowR
+        weight: 1
+      - path: Armature/Control/Forte
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02/Index03
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2/MiddleR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2/PinkyR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2/RingR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2/ThumbR3
+        weight: 1
+      - path: Armature/Control/Forte/Foilable
+        weight: 1
+      - path: Armature/Control/Forte/Foilable/Tip
+        weight: 1
+      - path: Armature/Control/KneeL
+        weight: 1
+      - path: Armature/Control/KneeR
+        weight: 1
+      - path: Armature/Control/Leg IK L
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL/FootL
+        weight: 1
+      - path: Armature/Control/Leg IK R
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR/FootR
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL/HandL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR/LowerArmR.001
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL/ShinL.003
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR/ShinR.001
+        weight: 1
+      - path: Armature/Control/Tip IK
+        weight: 1
+      - path: FoilMesh
+        weight: 1
+      - path: MHuman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RetreatLunge
+      takeName: Armature|RetreatLunge
+      firstFrame: 0
+      lastFrame: 62
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: move
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: -0.5
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Arm IK L
+        weight: 1
+      - path: Armature/Control/Bend IK
+        weight: 1
+      - path: Armature/Control/ElbowL
+        weight: 1
+      - path: Armature/Control/ElbowR
+        weight: 1
+      - path: Armature/Control/Forte
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02/Index03
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2/MiddleR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2/PinkyR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2/RingR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2/ThumbR3
+        weight: 1
+      - path: Armature/Control/Forte/Foilable
+        weight: 1
+      - path: Armature/Control/Forte/Foilable/Tip
+        weight: 1
+      - path: Armature/Control/KneeL
+        weight: 1
+      - path: Armature/Control/KneeR
+        weight: 1
+      - path: Armature/Control/Leg IK L
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL/FootL
+        weight: 1
+      - path: Armature/Control/Leg IK R
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR/FootR
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL/HandL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR/LowerArmR.001
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL/ShinL.003
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR/ShinR.001
+        weight: 1
+      - path: Armature/Control/Tip IK
+        weight: 1
+      - path: FoilMesh
+        weight: 1
+      - path: MHuman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|SaluteViewer
+      takeName: Armature|SaluteViewer
+      firstFrame: 0
+      lastFrame: 144
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Arm IK L
+        weight: 1
+      - path: Armature/Control/Bend IK
+        weight: 1
+      - path: Armature/Control/ElbowL
+        weight: 1
+      - path: Armature/Control/ElbowR
+        weight: 1
+      - path: Armature/Control/Forte
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/IndexR0/Index01/Index02/Index03
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/MiddleR0/MiddleR1/MiddleR2/MiddleR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/PinkyR0/PinkyR1/PinkyR2/PinkyR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/RingR0/RingR1/RingR2/RingR3
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2
+        weight: 1
+      - path: Armature/Control/Forte/Arm IK R/ThumbR1/ThumbR2/ThumbR3
+        weight: 1
+      - path: Armature/Control/Forte/Foilable
+        weight: 1
+      - path: Armature/Control/Forte/Foilable/Tip
+        weight: 1
+      - path: Armature/Control/KneeL
+        weight: 1
+      - path: Armature/Control/KneeR
+        weight: 1
+      - path: Armature/Control/Leg IK L
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL
+        weight: 1
+      - path: Armature/Control/Leg IK L/HeelL/FootL
+        weight: 1
+      - path: Armature/Control/Leg IK R
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR
+        weight: 1
+      - path: Armature/Control/Leg IK R/HeelR/FootR
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmL/LowerArmL/HandL
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR
+        weight: 1
+      - path: Armature/Control/Stomach/LowerChest/Chest/UpperArmR/LowerArmR/LowerArmR.001
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL
+        weight: 1
+      - path: Armature/Control/Stomach/ThighL/ShinL/ShinL.003
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR
+        weight: 1
+      - path: Armature/Control/Stomach/ThighR/ShinR/ShinR.001
+        weight: 1
+      - path: Armature/Control/Tip IK
+        weight: 1
+      - path: FoilMesh
+        weight: 1
+      - path: MHuman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Control
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
