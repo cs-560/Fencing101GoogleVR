@@ -15,4 +15,17 @@ public class SwitchClip:MonoBehaviour {
 		animator.SetInteger ("Clip", n);
 		animator.SetTrigger ("switch");
 	}
+	public void HandControl(int n){
+		if (n == 4)
+			animator.SetTrigger ("ParryRiposte");
+		if (n == 3)
+			animator.SetTrigger ("Guards");
+		if (n ==2)
+			animator.SetTrigger("AdvanceLunge");
+		if (n == 1)
+			animator.SetTrigger ("Lunge");
+	}
+	public void changeSpeed(float sp){
+		animator.speed = sp;
+	}
 }

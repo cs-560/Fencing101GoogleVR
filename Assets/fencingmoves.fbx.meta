@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: d5be711ac55641d43aa844118f34a2fc
-timeCreated: 1489397266
+guid: 944f2e6e33a831d479b7cb78a9593ccd
+timeCreated: 1489571939
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -63,6 +63,26 @@ ModelImporter:
     100110: Tip IK
     100112: UpperArmL
     100114: UpperArmR
+    100116: Arm IK L_end
+    100118: Bend IK_end
+    100120: ElbowL_end
+    100122: ElbowR_end
+    100124: FootL_end
+    100126: FootR_end
+    100128: HandL_end
+    100130: Head_end
+    100132: Index03_end
+    100134: KneeL_end
+    100136: KneeR_end
+    100138: LowerArmR.001_end
+    100140: MiddleR3_end
+    100142: PinkyR3_end
+    100144: RingR3_end
+    100146: ShinL.003_end
+    100148: ShinR.001_end
+    100150: ThumbR3_end
+    100152: Tip IK_end
+    100154: Tip_end
     400000: Arm IK L
     400002: Arm IK R
     400004: Armature
@@ -121,6 +141,26 @@ ModelImporter:
     400110: Tip IK
     400112: UpperArmL
     400114: UpperArmR
+    400116: Arm IK L_end
+    400118: Bend IK_end
+    400120: ElbowL_end
+    400122: ElbowR_end
+    400124: FootL_end
+    400126: FootR_end
+    400128: HandL_end
+    400130: Head_end
+    400132: Index03_end
+    400134: KneeL_end
+    400136: KneeR_end
+    400138: LowerArmR.001_end
+    400140: MiddleR3_end
+    400142: PinkyR3_end
+    400144: RingR3_end
+    400146: ShinL.003_end
+    400148: ShinR.001_end
+    400150: ThumbR3_end
+    400152: Tip IK_end
+    400154: Tip_end
     4300000: MHuman
     4300002: FoilMesh
     7400000: Armature|Advance
@@ -158,7 +198,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -188,14 +228,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 1
-        functionName: move
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0.6
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask:
       - path: 
         weight: 1
@@ -332,7 +365,7 @@ ModelImporter:
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 1
+      keepOriginalOrientation: 0
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
       heightFromFeet: 0
@@ -484,12 +517,12 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 1
-        functionName: move
+      - time: 0
+        functionName: HandControl
         data: 
         objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0.5
-        intParameter: 0
+        floatParameter: 0
+        intParameter: 2
         messageOptions: 0
       transformMask:
       - path: 
@@ -622,12 +655,12 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
+      keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
       heightFromFeet: 0
@@ -778,14 +811,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 1
-        functionName: move
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 1.1
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask:
       - path: 
         weight: 1
@@ -929,14 +955,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 1
-        functionName: move
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: -1.23
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask:
       - path: 
         weight: 1
@@ -1068,7 +1087,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1512,7 +1531,14 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0
+        functionName: HandControl
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
@@ -1932,7 +1958,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -2088,14 +2114,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 1
-        functionName: move
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: -0.6
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask:
       - path: 
         weight: 1
@@ -2240,12 +2259,12 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 1
-        functionName: move
+      - time: 0
+        functionName: HandControl
         data: 
         objectReferenceParameter: {instanceID: 0}
-        floatParameter: -0.5
-        intParameter: 0
+        floatParameter: 0
+        intParameter: 4
         messageOptions: 0
       transformMask:
       - path: 
@@ -2549,7 +2568,7 @@ ModelImporter:
     rootMotionBoneName: Control
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
