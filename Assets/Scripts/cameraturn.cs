@@ -20,6 +20,11 @@ public class cameraturn : MonoBehaviour {
 		if (Input.GetKey (KeyCode.LeftAlt)) {
 			float roll = turn_rate * Input.GetAxis ("Mouse X");
 			transform.Rotate (0, 0, roll);
+		} else {
+			float tilt = transform.eulerAngles.z;
+			if (tilt > 180.0f)
+				tilt -= 360.0f;
+			transform.Rotate (0, 0, -tilt / 3.0f);
 		}
 	}
 	void lateUpdate(){

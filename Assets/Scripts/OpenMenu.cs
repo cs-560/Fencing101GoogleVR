@@ -17,7 +17,8 @@ public class OpenMenu : MonoBehaviour {
 	public float dead_zone;
 	public float speed;
 	public float maxSpeed;
-	public GameObject toFollow;
+	public GameObject Follow_Src;
+	public GameObject Follow_Dest;
 	public AudioClip a1;
 	public AudioClip a2;
 	public AudioClip a3;
@@ -59,9 +60,9 @@ public class OpenMenu : MonoBehaviour {
 		if (menus.activeInHierarchy)
 			return;
 
-		float pitch = toFollow.transform.eulerAngles.x;
-		float roll = toFollow.transform.eulerAngles.z;
-		float yaw = toFollow.transform.eulerAngles.y;
+		float pitch = Follow_Src.transform.eulerAngles.x;
+		float roll = Follow_Src.transform.eulerAngles.z;
+		float yaw = Follow_Src.transform.eulerAngles.y;
 		if (pitch > 180.0f)
 			pitch -= 360.0f;
 		if (roll > 180.0f)
@@ -90,16 +91,16 @@ public class OpenMenu : MonoBehaviour {
 			else if (roll < -maxSpeed)
 				roll = -maxSpeed;
 			transform.Translate (-roll * Time.deltaTime, 0.0f, pitch * Time.deltaTime);
-			if(transform.position.x > 5.0f)
-				transform.Translate (5.0f - transform.position.x , 0.0f, 0.0f, Space.World);
-			if(transform.position.x < -5.0f)
-				transform.Translate (-5.0f - transform.position.x , 0.0f, 0.0f, Space.World);
-			if(transform.position.z > 10.0f)
-				transform.Translate (0.0f, 0.0f, 10.0f - transform.position.z , Space.World);
-			if(transform.position.z < -10.0f)
-				transform.Translate (0.0f, 0.0f, -10.0f - transform.position.z , Space.World);
-			toFollow.transform.Translate (transform.position.x - toFollow.transform.position.x, 0.0f, 
-				transform.position.z - toFollow.transform.position.z, Space.World);
+			if(transform.position.x > 10.0f)
+				transform.Translate (10.0f - transform.position.x , 0.0f, 0.0f, Space.World);
+			if(transform.position.x < -10.0f)
+				transform.Translate (-10.0f - transform.position.x , 0.0f, 0.0f, Space.World);
+			if(transform.position.z > 5.0f)
+				transform.Translate (0.0f, 0.0f, 5.0f - transform.position.z , Space.World);
+			if(transform.position.z < -5.0f)
+				transform.Translate (0.0f, 0.0f, -5.0f - transform.position.z , Space.World);
+			Follow_Dest.transform.Translate (transform.position.x - Follow_Dest.transform.position.x, 0.0f, 
+				transform.position.z - Follow_Dest.transform.position.z, Space.World);
 		}
 		transform.Rotate (0.0f, yaw - transform.eulerAngles.y, 0.0f);
 	}

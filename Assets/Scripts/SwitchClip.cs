@@ -14,6 +14,7 @@ public class SwitchClip:MonoBehaviour {
 	public void SetActivate(int n){
 		animator.SetInteger ("Clip", n);
 		animator.SetTrigger ("switch");
+		changeSpeed (1.0f);
 	}
 	public void HandControl(int n){
 		if (n == 4)
