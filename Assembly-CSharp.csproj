@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\MenuFollow.cs" />
      <Compile Include="Assets\Scripts\OpenMenu.cs" />
      <Compile Include="Assets\Scripts\SwitchClip.cs" />
+     <Compile Include="Assets\Scripts\cameraturn.cs" />
      <Compile Include="Assets\Scripts\scriptmove.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity 5.6.0b9/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

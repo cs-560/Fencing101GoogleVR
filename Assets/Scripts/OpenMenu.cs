@@ -11,7 +11,9 @@ public class OpenMenu : MonoBehaviour {
 	private State state;
 	private bool click;
 	private float t0;
+	private float t_closed;
 	public float hold_interval;
+	public float menu_interval;
 	public float dead_zone;
 	public float speed;
 	public float maxSpeed;
@@ -35,12 +37,28 @@ public class OpenMenu : MonoBehaviour {
 		if(Input.GetMouseButtonUp (0)){
 			if (!menus.activeInHierarchy && Time.time - t0 < hold_interval)
 				click = true;
+			float dt = Time.time - t_closed;
+			if (click && (dt > menu_interval)) {
+			//	float ht = Time.time - t0;
+			//	string output = string.Concat ("Time.time - t0 : ", ht.ToString ());
+			//	print (output);
+			//	output = string.Concat ("Time.time - t_closed : ", dt.ToString ());
+			//	print (output);
+				menus.SetActive (true);
+				//if (state == State.Watch) {
+				pause.SetActive (true);
+				main.SetActive (false);
+				help.SetActive (false);
+				state = State.Pause;
+				//}
+			
+			}
+			click = false;
 		}
 
-		bool menuOpen = menus.activeInHierarchy;
-		if (menuOpen) {
+		if (menus.activeInHierarchy)
 			return;
-		}
+
 		float pitch = toFollow.transform.eulerAngles.x;
 		float roll = toFollow.transform.eulerAngles.z;
 		float yaw = toFollow.transform.eulerAngles.y;
@@ -86,18 +104,7 @@ public class OpenMenu : MonoBehaviour {
 		transform.Rotate (0.0f, yaw - transform.eulerAngles.y, 0.0f);
 	}
 	void LateUpdate() {
-		if (menus.activeInHierarchy)
-			return;
-		if (click) {
-			menus.SetActive (true);
-			//if (state == State.Watch) {
-				pause.SetActive (true);
-				main.SetActive (false);
-				help.SetActive (false);
-				state = State.Pause;
-			//}
-			click = false;
-		}
+
 	}
 	public void SetState(string to_set){
 		if(to_set.Equals("Watch"))
@@ -134,5 +141,9 @@ public class OpenMenu : MonoBehaviour {
 		else if (n == 4)
 			audiosource.clip = a4;
 		audiosource.Play ();
+		close_time ();
+	}
+	public void close_time(){
+		t_closed = Time.time;
 	}
 }
