@@ -38,3 +38,5 @@ ehthumbs.db
 # Android , IOS plugins for google VR #
 # =================================== #
 Assets/[Pp]lugins/
+Assets/GoogleVR/
+*.apk
